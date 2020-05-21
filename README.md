@@ -13,7 +13,7 @@ Use machine learning methods to categorize short messages (“tweets”) from Tw
 - Get rid of stop-words, symbols, and urls
 - Stemming
 - Kept the name tags because I assumed that mentioning some famous people such as Trump may link to certain emotions
-- Use TF-IDF (which takes into account both term frequency, rareness of the term, and the length of tweets.) as the value of each attribute
+- Use TF-IDF as the value of each attribute (which takes into account both term frequency, rareness of the term, and the length of tweets.) 
 - 34,641 attributes
 
 ## Models 
