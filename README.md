@@ -28,3 +28,8 @@ It analyses each feature independently, so it made use of all tokens in feature 
 
 ### Random Forests
 Random Forests is a rule based classifier, it can take into account the combination of tokens. For example, the combination of “Great” and “Job” might be a positive tweet.
+
+## Future Improvements
+- Optimization of the attributes selected using feature selection to derive features contributing most to the sentiment classification to avoid having irrelevant features in the dataset, which would decrease the accuracy of the models because model would learn based on irrelevant features.
+- Creating more attributes by using n-gram, POS, or counting of transformed words such as elongated or all-caps words.
+- Giving different weights to terms such as for terms that are more related to sentiments, the weight of those term values is increased for better prediction.   
